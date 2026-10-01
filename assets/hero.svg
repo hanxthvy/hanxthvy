@@ -1,0 +1,104 @@
+<!-- [xihanzu-NR] -->
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Inter:wght@600;700;800&display=swap');
+  .name { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 52px; letter-spacing: 5px; fill: #faf9f5; }
+  .sub { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 15px; letter-spacing: 2px; fill: #cc785c; }
+  .ach { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 16px; fill: #e8a55a; }
+  .status-text { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 1.5px; fill: #faf9f5; }
+  .corner { stroke: #cc785c; stroke-width: 2; fill: none; opacity: 0.85; }
+  .glowbar { animation: pulse 2.6s ease-in-out infinite; }
+  .trace { fill: none; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 40 240; animation: travel 3.2s linear infinite; }
+
+  @keyframes travel { to { stroke-dashoffset: -380; } }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  @keyframes scan { 0% { transform: translateY(-40px); } 100% { transform: translateY(400px); } }
+  @keyframes glitch {
+    0%, 92%, 100% { transform: translate(0,0); opacity: 0; }
+    93% { transform: translate(-3px,1px); opacity: .7; }
+    95% { transform: translate(3px,-1px); opacity: .7; }
+    97% { transform: translate(-2px,0); opacity: .5; }
+  }
+  .clip1 rect { animation: type1 12s infinite; }
+  .clip2 rect { animation: type2 12s infinite; }
+  .clip3 rect { animation: type3 12s infinite; }
+  @keyframes type1 { 0%{width:0} 3%{width:0} 11%{width:440px} 27%{width:440px} 33%{width:0} 100%{width:0} }
+  @keyframes type2 { 0%{width:0} 33%{width:0} 36%{width:0} 44%{width:520px} 60%{width:520px} 66%{width:0} 100%{width:0} }
+  @keyframes type3 { 0%{width:0} 66%{width:0} 69%{width:0} 77%{width:540px} 95%{width:540px} 100%{width:0} }
+</style>
+
+<radialGradient id="bgGrad" cx="50%" cy="20%" r="90%">
+  <stop offset="0%" stop-color="#1d1310"/>
+  <stop offset="50%" stop-color="#110d0b"/>
+  <stop offset="100%" stop-color="#090706"/>
+</radialGradient>
+
+<radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+  <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+  <stop offset="100%" stop-color="#000000" stop-opacity="0.6"/>
+</radialGradient>
+
+<linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#cc785c"><animate attributeName="stop-color" values="#cc785c;#e8a55a;#cc785c" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%" stop-color="#a9583e"><animate attributeName="stop-color" values="#a9583e;#cc785c;#a9583e" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+
+<linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+  <stop offset="50%" stop-color="#cc785c" stop-opacity="0.08"/>
+  <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="4" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="softglow" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="8" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+</defs>
+
+<!-- Background & Frame -->
+<rect x="0" y="0" width="900" height="380" rx="18" fill="url(#bgGrad)"/>
+<rect x="0" y="0" width="900" height="380" rx="18" fill="url(#vignette)"/>
+<rect x="3" y="3" width="894" height="374" rx="16" fill="none" stroke="url(#frameGrad)" stroke-width="1.8" opacity="0.75"/>
+
+<!-- HUD Tech Corners -->
+<path class="corner" d="M24 60 L24 24 L60 24"/>
+<path class="corner" d="M876 60 L876 24 L840 24"/>
+<path class="corner" d="M24 320 L24 356 L60 356"/>
+<path class="corner" d="M876 320 L876 356 L840 356"/>
+
+<!-- Scanline Sweep -->
+<rect x="0" y="0" width="900" height="48" fill="url(#scanGrad)" style="animation: scan 5.5s linear infinite;"/>
+
+<!-- Main Heading -->
+<text x="450" y="112" text-anchor="middle" class="name" filter="url(#softglow)">REYHAN AKHTAR</text>
+<text x="447" y="112" text-anchor="middle" class="name" fill="#e8a55a" style="animation: glitch 7s infinite;">REYHAN AKHTAR</text>
+<text x="453" y="112" text-anchor="middle" class="name" fill="#cc785c" style="animation: glitch 7s infinite .1s;">REYHAN AKHTAR</text>
+
+<text x="450" y="148" text-anchor="middle" class="sub">// SYSTEMS &amp; SOFTWARE ENGINEER // RUST · LINUX · AI</text>
+
+<rect class="glowbar" x="370" y="168" width="160" height="2.5" rx="1" fill="#cc785c" filter="url(#glow)"/>
+
+<!-- Rotating Achievement Ticker -->
+<clipPath id="clip1" class="clip1"><rect x="180" y="215" width="0" height="30"/></clipPath>
+<clipPath id="clip2" class="clip2"><rect x="180" y="215" width="0" height="30"/></clipPath>
+<clipPath id="clip3" class="clip3"><rect x="180" y="215" width="0" height="30"/></clipPath>
+
+<text x="450" y="236" text-anchor="middle" class="ach" clip-path="url(#clip1)">⚡ CREATOR OF HYDRASCRIPT (NATIVE RUST COMPILER)</text>
+<text x="450" y="236" text-anchor="middle" class="ach" clip-path="url(#clip2)">🧠 TRAINED HYDRASCRIPT-LLM (6.9K DATASET · GGUF Q8_0)</text>
+<text x="450" y="236" text-anchor="middle" class="ach" clip-path="url(#clip3)">🖥️ HOMELAB RACK: HPE DL360 GEN9 · PROXMOX · WIREGUARD</text>
+
+<!-- Status Capsule Button -->
+<g>
+<rect x="305" y="282" width="290" height="44" rx="10" fill="#201511" stroke="#cc785c" stroke-width="1.4" filter="url(#glow)"/>
+<rect class="trace" x="305" y="282" width="290" height="44" rx="10" stroke="#e8a55a"/>
+<circle cx="330" cy="304" r="4.5" fill="#5db872">
+  <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+</circle>
+<text x="452" y="309" text-anchor="middle" class="status-text">ONLINE // COMPILER &amp; INFRA</text>
+</g>
+</svg>

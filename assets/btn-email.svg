@@ -1,0 +1,25 @@
+<!-- [xihanzu-NR] -->
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="74" viewBox="0 0 270 74">
+  <defs>
+    <linearGradient id="bgEm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18110e"/>
+      <stop offset="100%" stop-color="#0e0a09"/>
+    </linearGradient>
+    <linearGradient id="edgeEm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cc785c"/>
+      <stop offset="50%" stop-color="#e8a55a"/>
+      <stop offset="100%" stop-color="#cc785c"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="266" height="70" rx="10" fill="url(#bgEm)" stroke="url(#edgeEm)" stroke-width="1.2"/>
+
+  <!-- Icon: Mail -->
+  <g transform="translate(20, 23)" stroke="#cc785c" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+  </g>
+
+  <text x="58" y="34" font-family="'Inter', sans-serif" font-weight="700" font-size="14" fill="#faf9f5" letter-spacing="0.5">DIRECT CONTACT</text>
+  <text x="58" y="52" font-family="'JetBrains Mono', monospace" font-size="11" fill="#8e8b82">contact@hanz.dev ↗</text>
+</svg>

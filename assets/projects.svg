@@ -2,13 +2,12 @@
 <svg width="900" height="490" viewBox="0 0 900 490" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800&family=Inter:wght@600;700;800&display=swap');
-  .title { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 24px; letter-spacing: 4px; fill: #faf9f5; }
-  .tag { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 11px; letter-spacing: 1px; fill: #cc785c; }
-  .card-title { font-family: 'Inter', system-ui, sans-serif; font-weight: 700; font-size: 19px; fill: #faf9f5; }
-  .card-desc { font-family: 'Inter', system-ui, sans-serif; font-weight: 400; font-size: 13px; fill: #8e8b82; }
-  .metric-lbl { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 10px; fill: #6c6a64; letter-spacing: 0.5px; }
-  .metric-val { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 13px; fill: #e8a55a; }
+  .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-weight: 800; font-size: 24px; letter-spacing: 4px; fill: #faf9f5; }
+  .tag { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; font-weight: 600; font-size: 11px; letter-spacing: 1px; fill: #cc785c; }
+  .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-weight: 700; font-size: 19px; fill: #faf9f5; }
+  .card-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-weight: 400; font-size: 13px; fill: #8e8b82; }
+  .metric-lbl { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-weight: 600; font-size: 10px; fill: #6c6a64; letter-spacing: 0.5px; }
+  .metric-val { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-weight: 700; font-size: 13px; fill: #e8a55a; }
   .corner { stroke: #cc785c; stroke-width: 1.5; fill: none; opacity: 0.8; }
   .trace { fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-dasharray: 50 300; animation: travel 4s linear infinite; }
 
@@ -54,10 +53,10 @@
   <rect class="trace" x="0" y="0" width="254" height="326" rx="10" stroke="#cc785c"/>
 
   <rect x="18" y="18" width="60" height="20" rx="4" fill="#261711"/>
-  <text x="48" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#cc785c">RUST</text>
+  <text x="48" y="32" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#cc785c">RUST</text>
 
   <text x="18" y="70" class="card-title">HydraScript</text>
-  <text x="18" y="90" font-family="'JetBrains Mono', monospace" font-size="11" fill="#cc785c">Compiler Toolchain</text>
+  <text x="18" y="90" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" fill="#cc785c">Compiler Toolchain</text>
 
   <text x="18" y="125" class="card-desc">Standalone native Rust compiler</text>
   <text x="18" y="145" class="card-desc">transpiling Pythonic syntax</text>
@@ -82,10 +81,10 @@
   <rect class="trace" x="0" y="0" width="254" height="326" rx="10" stroke="#e8a55a"/>
 
   <rect x="18" y="18" width="60" height="20" rx="4" fill="#281c10"/>
-  <text x="48" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#e8a55a">AI / ML</text>
+  <text x="48" y="32" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#e8a55a">AI / ML</text>
 
   <text x="18" y="70" class="card-title">HydraScript LLM</text>
-  <text x="18" y="90" font-family="'JetBrains Mono', monospace" font-size="11" fill="#e8a55a">Fine-Tuned Qwen3</text>
+  <text x="18" y="90" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" fill="#e8a55a">Fine-Tuned Qwen3</text>
 
   <text x="18" y="125" class="card-desc">Custom code language model</text>
   <text x="18" y="145" class="card-desc">fine-tuned on 6.9K compiler-</text>
@@ -110,10 +109,10 @@
   <rect class="trace" x="0" y="0" width="254" height="326" rx="10" stroke="#cc785c"/>
 
   <rect x="18" y="18" width="70" height="20" rx="4" fill="#261711"/>
-  <text x="53" y="32" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#cc785c">HARDWARE</text>
+  <text x="53" y="32" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="10" font-weight="700" fill="#cc785c">HARDWARE</text>
 
   <text x="18" y="70" class="card-title">HPE DL360 Gen9</text>
-  <text x="18" y="90" font-family="'JetBrains Mono', monospace" font-size="11" fill="#cc785c">1U Homelab Cluster</text>
+  <text x="18" y="90" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" fill="#cc785c">1U Homelab Cluster</text>
 
   <text x="18" y="125" class="card-desc">Physical enterprise server in</text>
   <text x="18" y="145" class="card-desc">room rack running Proxmox VE,</text>

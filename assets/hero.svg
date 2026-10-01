@@ -2,11 +2,10 @@
 <svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&family=Inter:wght@600;700;800&display=swap');
-  .name { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 52px; letter-spacing: 5px; fill: #faf9f5; }
-  .sub { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 15px; letter-spacing: 2px; fill: #cc785c; }
-  .ach { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 16px; fill: #e8a55a; }
-  .status-text { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 13px; letter-spacing: 1.5px; fill: #faf9f5; }
+  .name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif; font-weight: 800; font-size: 52px; letter-spacing: 5px; fill: #faf9f5; }
+  .sub { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; font-weight: 600; font-size: 15px; letter-spacing: 2px; fill: #cc785c; }
+  .ach { font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; font-weight: 600; font-size: 15px; fill: #e8a55a; }
+  .status-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px; fill: #faf9f5; }
   .corner { stroke: #cc785c; stroke-width: 2; fill: none; opacity: 0.85; }
   .glowbar { animation: pulse 2.6s ease-in-out infinite; }
   .trace { fill: none; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 40 240; animation: travel 3.2s linear infinite; }
@@ -16,14 +15,14 @@
   @keyframes scan { 0% { transform: translateY(-40px); } 100% { transform: translateY(400px); } }
   @keyframes glitch {
     0%, 92%, 100% { transform: translate(0,0); opacity: 0; }
-    93% { transform: translate(-3px,1px); opacity: .7; }
-    95% { transform: translate(3px,-1px); opacity: .7; }
-    97% { transform: translate(-2px,0); opacity: .5; }
+    93% { transform: translate(-3px,1px); opacity: 0.7; }
+    95% { transform: translate(3px,-1px); opacity: 0.7; }
+    97% { transform: translate(-2px,0); opacity: 0.5; }
   }
   .clip1 rect { animation: type1 12s infinite; }
   .clip2 rect { animation: type2 12s infinite; }
   .clip3 rect { animation: type3 12s infinite; }
-  @keyframes type1 { 0%{width:0} 3%{width:0} 11%{width:440px} 27%{width:440px} 33%{width:0} 100%{width:0} }
+  @keyframes type1 { 0%{width:0} 3%{width:0} 11%{width:500px} 27%{width:500px} 33%{width:0} 100%{width:0} }
   @keyframes type2 { 0%{width:0} 33%{width:0} 36%{width:0} 44%{width:520px} 60%{width:520px} 66%{width:0} 100%{width:0} }
   @keyframes type3 { 0%{width:0} 66%{width:0} 69%{width:0} 77%{width:540px} 95%{width:540px} 100%{width:0} }
 </style>
@@ -83,14 +82,14 @@
 
 <rect class="glowbar" x="370" y="168" width="160" height="2.5" rx="1" fill="#cc785c" filter="url(#glow)"/>
 
-<!-- Rotating Achievement Ticker -->
-<clipPath id="clip1" class="clip1"><rect x="180" y="215" width="0" height="30"/></clipPath>
-<clipPath id="clip2" class="clip2"><rect x="180" y="215" width="0" height="30"/></clipPath>
-<clipPath id="clip3" class="clip3"><rect x="180" y="215" width="0" height="30"/></clipPath>
+<!-- Rotating Achievement Ticker (left-aligned inside centered bounding box) -->
+<clipPath id="clip1" class="clip1"><rect x="200" y="210" width="0" height="36"/></clipPath>
+<clipPath id="clip2" class="clip2"><rect x="200" y="210" width="0" height="36"/></clipPath>
+<clipPath id="clip3" class="clip3"><rect x="200" y="210" width="0" height="36"/></clipPath>
 
-<text x="450" y="236" text-anchor="middle" class="ach" clip-path="url(#clip1)">⚡ CREATOR OF HYDRASCRIPT (NATIVE RUST COMPILER)</text>
-<text x="450" y="236" text-anchor="middle" class="ach" clip-path="url(#clip2)">🧠 TRAINED HYDRASCRIPT-LLM (6.9K DATASET · GGUF Q8_0)</text>
-<text x="450" y="236" text-anchor="middle" class="ach" clip-path="url(#clip3)">🖥️ HOMELAB RACK: HPE DL360 GEN9 · PROXMOX · WIREGUARD</text>
+<text x="200" y="235" text-anchor="start" class="ach" clip-path="url(#clip1)">&#9654; CREATOR OF HYDRASCRIPT (NATIVE RUST COMPILER)</text>
+<text x="200" y="235" text-anchor="start" class="ach" clip-path="url(#clip2)">&#9654; TRAINED HYDRASCRIPT-LLM (6.9K DATASET · GGUF Q8_0)</text>
+<text x="200" y="235" text-anchor="start" class="ach" clip-path="url(#clip3)">&#9654; HOMELAB RACK: HPE DL360 GEN9 · PROXMOX · WIREGUARD</text>
 
 <!-- Status Capsule Button -->
 <g>

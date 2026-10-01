@@ -1,0 +1,61 @@
+<!-- [xihanzu-NR] -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 170" width="850" height="170" fill="none">
+  <defs>
+    <pattern id="grid-dots-dark" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363d" />
+    </pattern>
+    <linearGradient id="border-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cc785c" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#30363d" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#cc785c" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="glow-grad-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#cc785c" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#cc785c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="1" y="1" width="848" height="168" rx="12" fill="#0d1117" stroke="url(#border-grad-dark)" stroke-width="1.2"/>
+  <rect x="2" y="2" width="846" height="166" rx="11" fill="url(#grid-dots-dark)" opacity="0.6"/>
+  <rect x="2" y="2" width="400" height="166" rx="11" fill="url(#glow-grad-dark)"/>
+
+  <!-- Left Content -->
+  <g transform="translate(36, 34)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="220" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle cx="10" cy="11" r="3.5" fill="#5db872"/>
+    <text x="20" y="15" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="10.5" font-weight="500" letter-spacing="0.5">SYSTEMS &amp; APPLIED AI</text>
+
+    <!-- Name Heading -->
+    <text x="0" y="56" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="30" font-weight="600" letter-spacing="-0.8">Reyhan Akhtar</text>
+    <text x="214" y="56" fill="#cc785c" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="20" font-weight="500">_</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="80" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="13" font-weight="400">
+      Compiler Toolchain Engineering <tspan fill="#30363d">·</tspan> Linux Core Infrastructure <tspan fill="#30363d">·</tspan> Edge Neural Distillation
+    </text>
+
+    <!-- Meta / Focus -->
+    <text x="0" y="104" fill="#cc785c" font-family="'JetBrains Mono', monospace" font-size="11">
+      // CORE: <tspan fill="#c9d1d9">Rust / Python / C / Proxmox VE / Void Linux</tspan>
+    </text>
+  </g>
+
+  <!-- Right Technical Spec Card -->
+  <g transform="translate(560, 24)">
+    <rect x="0" y="0" width="254" height="122" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <text x="16" y="24" fill="#8b949e" font-family="'JetBrains Mono', monospace" font-size="10" letter-spacing="0.5">TELEMETRY / SPECS</text>
+    <line x1="16" y1="32" x2="238" y2="32" stroke="#21262d" stroke-width="1"/>
+
+    <text x="16" y="52" fill="#8b949e" font-family="'JetBrains Mono', monospace" font-size="11">TOOLCHAIN</text>
+    <text x="100" y="52" fill="#f0f6fc" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="500">HydraScript (Rust)</text>
+
+    <text x="16" y="74" fill="#8b949e" font-family="'JetBrains Mono', monospace" font-size="11">EDGE LLM</text>
+    <text x="100" y="74" fill="#cc785c" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="500">Qwen3-0.6B GGUF</text>
+
+    <text x="16" y="96" fill="#8b949e" font-family="'JetBrains Mono', monospace" font-size="11">COMPUTE</text>
+    <text x="100" y="96" fill="#f0f6fc" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="500">HPE DL360 Gen9</text>
+  </g>
+</svg>

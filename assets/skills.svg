@@ -1,0 +1,147 @@
+<!-- [xihanzu-NR] -->
+<svg width="900" height="400" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&family=Inter:wght@600;700;800&display=swap');
+  .title { font-family: 'Inter', system-ui, sans-serif; font-weight: 800; font-size: 22px; letter-spacing: 4px; fill: #faf9f5; }
+  .tag { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 11px; letter-spacing: 1px; fill: #cc785c; }
+  .cat-title { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 12px; letter-spacing: 1px; fill: #e8a55a; }
+  .pill-text { font-family: 'Inter', system-ui, sans-serif; font-weight: 600; font-size: 12.5px; fill: #faf9f5; }
+  .corner { stroke: #cc785c; stroke-width: 1.5; fill: none; opacity: 0.8; }
+</style>
+
+<radialGradient id="skillsBg" cx="50%" cy="10%" r="90%">
+  <stop offset="0%" stop-color="#18110e"/>
+  <stop offset="50%" stop-color="#110d0b"/>
+  <stop offset="100%" stop-color="#090706"/>
+</radialGradient>
+</defs>
+
+<!-- Background -->
+<rect x="0" y="0" width="900" height="400" rx="16" fill="url(#skillsBg)"/>
+<rect x="2" y="2" width="896" height="396" rx="14" fill="none" stroke="#251b17" stroke-width="1.5"/>
+
+<!-- HUD Corners -->
+<path class="corner" d="M20 40 L20 20 L40 20"/>
+<path class="corner" d="M880 40 L880 20 L860 20"/>
+<path class="corner" d="M20 360 L20 380 L40 380"/>
+<path class="corner" d="M880 360 L880 380 L860 380"/>
+
+<!-- Header -->
+<text x="40" y="50" class="tag">// STACK MATRIX</text>
+<text x="40" y="78" class="title">ENGINEERING TOOLBOX</text>
+<line x1="40" y1="94" x2="860" y2="94" stroke="#2a1f1b" stroke-width="1"/>
+
+<!-- Row 1: Systems & Core -->
+<g transform="translate(40, 114)">
+  <text x="0" y="16" class="cat-title">SYSTEMS &amp; CORE</text>
+
+  <g transform="translate(180, 0)">
+    <rect x="0" y="0" width="70" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="35" y="18" text-anchor="middle" class="pill-text">Rust</text>
+
+    <rect x="80" y="0" width="85" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="122" y="18" text-anchor="middle" class="pill-text">Python</text>
+
+    <rect x="175" y="0" width="130" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="240" y="18" text-anchor="middle" class="pill-text">Node.js / JS</text>
+
+    <rect x="315" y="0" width="70" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="350" y="18" text-anchor="middle" class="pill-text">C / C++</text>
+
+    <rect x="395" y="0" width="110" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="450" y="18" text-anchor="middle" class="pill-text">Bash Shell</text>
+
+    <rect x="515" y="0" width="125" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="577" y="18" text-anchor="middle" class="pill-text">Void Linux</text>
+  </g>
+</g>
+
+<!-- Row 2: Infrastructure & Server -->
+<g transform="translate(40, 168)">
+  <text x="0" y="16" class="cat-title">INFRA &amp; CLOUD</text>
+
+  <g transform="translate(180, 0)">
+    <rect x="0" y="0" width="120" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="60" y="18" text-anchor="middle" class="pill-text">Proxmox VE</text>
+
+    <rect x="130" y="0" width="115" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="187" y="18" text-anchor="middle" class="pill-text">WireGuard</text>
+
+    <rect x="255" y="0" width="145" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="327" y="18" text-anchor="middle" class="pill-text">HPE DL360 Gen9</text>
+
+    <rect x="410" y="0" width="80" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="450" y="18" text-anchor="middle" class="pill-text">Docker</text>
+
+    <rect x="500" y="0" width="75" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="537" y="18" text-anchor="middle" class="pill-text">Nginx</text>
+
+    <rect x="585" y="0" width="55" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="612" y="18" text-anchor="middle" class="pill-text">LXC</text>
+  </g>
+</g>
+
+<!-- Row 3: Applied AI & Models -->
+<g transform="translate(40, 222)">
+  <text x="0" y="16" class="cat-title">APPLIED AI / ML</text>
+
+  <g transform="translate(180, 0)">
+    <rect x="0" y="0" width="90" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="45" y="18" text-anchor="middle" class="pill-text">PyTorch</text>
+
+    <rect x="100" y="0" width="135" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="167" y="18" text-anchor="middle" class="pill-text">LoRA Fine-Tune</text>
+
+    <rect x="245" y="0" width="105" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="297" y="18" text-anchor="middle" class="pill-text">llama.cpp</text>
+
+    <rect x="360" y="0" width="115" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="417" y="18" text-anchor="middle" class="pill-text">GGUF Q8_0</text>
+
+    <rect x="485" y="0" width="155" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="562" y="18" text-anchor="middle" class="pill-text">Dataset Distillation</text>
+  </g>
+</g>
+
+<!-- Row 4: UI & Frontend -->
+<g transform="translate(40, 276)">
+  <text x="0" y="16" class="cat-title">FRONTEND &amp; UI</text>
+
+  <g transform="translate(180, 0)">
+    <rect x="0" y="0" width="165" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="82" y="18" text-anchor="middle" class="pill-text">HydraScript (.hyx)</text>
+
+    <rect x="175" y="0" width="90" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="220" y="18" text-anchor="middle" class="pill-text">React 18</text>
+
+    <rect x="275" y="0" width="125" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="337" y="18" text-anchor="middle" class="pill-text">Tailwind CSS</text>
+
+    <rect x="410" y="0" width="75" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="447" y="18" text-anchor="middle" class="pill-text">GSAP</text>
+
+    <rect x="495" y="0" width="145" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="567" y="18" text-anchor="middle" class="pill-text">SVG Vector Motion</text>
+  </g>
+</g>
+
+<!-- Row 5: Hardware & Assembly -->
+<g transform="translate(40, 330)">
+  <text x="0" y="16" class="cat-title">HARDWARE &amp; SMT</text>
+
+  <g transform="translate(180, 0)">
+    <rect x="0" y="0" width="175" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="87" y="18" text-anchor="middle" class="pill-text">Audio PCB Assembly</text>
+
+    <rect x="185" y="0" width="145" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="257" y="18" text-anchor="middle" class="pill-text">SMT Mounting/QC</text>
+
+    <rect x="340" y="0" width="155" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="417" y="18" text-anchor="middle" class="pill-text">PT Panasonic (PKL)</text>
+
+    <rect x="505" y="0" width="135" height="28" rx="6" fill="#201511" stroke="#38251e"/>
+    <text x="572" y="18" text-anchor="middle" class="pill-text">Arduino / Sensors</text>
+  </g>
+</g>
+</svg>

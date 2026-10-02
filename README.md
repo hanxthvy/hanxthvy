@@ -19,7 +19,7 @@
 
 <a href="https://github.com/hanxthvy/hydrascript"><img src="https://raw.githubusercontent.com/hanxthvy/hanxthvy/main/media/btn-hydrascript.svg" height="74"/></a>
 &nbsp;
-<a href="https://github.com/hanxthvy/portfolio"><img src="https://raw.githubusercontent.com/hanxthvy/hanxthvy/main/media/btn-portfolio.svg" height="74"/></a>
+<a href="https://hanz.dev"><img src="https://raw.githubusercontent.com/hanxthvy/hanxthvy/main/media/btn-portfolio.svg" height="74"/></a>
 &nbsp;
 <a href="mailto:contact@hanz.dev"><img src="https://raw.githubusercontent.com/hanxthvy/hanxthvy/main/media/btn-email.svg" height="74"/></a>
 

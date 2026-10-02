@@ -19,8 +19,12 @@
 
 <a href="https://github.com/hanxthvy/hydrascript"><img src="https://raw.githubusercontent.com/hanxthvy/hanxthvy/main/media/btn-hydrascript.svg" height="74"/></a>
 &nbsp;
-<a href="https://hanz.dev"><img src="https://raw.githubusercontent.com/hanxthvy/hanxthvy/main/media/btn-portfolio.svg" height="74"/></a>
+<a href="https://hanxthvy.my.id"><img src="https://raw.githubusercontent.com/hanxthvy/hanxthvy/main/media/btn-portfolio.svg" height="74"/></a>
 &nbsp;
 <a href="mailto:contact@hanz.dev"><img src="https://raw.githubusercontent.com/hanxthvy/hanxthvy/main/media/btn-email.svg" height="74"/></a>
+<br/><br/>
+<a href="https://instagram.com/hanxthvy"><img src="https://raw.githubusercontent.com/hanxthvy/hanxthvy/main/media/btn-instagram.svg" height="74"/></a>
+&nbsp;
+<a href="https://www.tiktok.com/@homexihanzu"><img src="https://raw.githubusercontent.com/hanxthvy/hanxthvy/main/media/btn-tiktok.svg" height="74"/></a>
 
 </div>

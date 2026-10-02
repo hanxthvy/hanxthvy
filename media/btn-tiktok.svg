@@ -1,0 +1,15 @@
+<!-- [xihanzu-NR] -->
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="74" viewBox="0 0 270 74">
+  <!-- Deep Indigo Pill Button with Subtle Border -->
+  <rect x="2" y="2" width="266" height="70" rx="20" fill="#0f1238" stroke="#35ed7e" stroke-width="2"/>
+
+  <!-- Music Note / TikTok Icon -->
+  <g transform="translate(24, 23)" stroke="#35ed7e" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 18V5l12-2v13"/>
+    <circle cx="6" cy="18" r="3"/>
+    <circle cx="18" cy="16" r="3"/>
+  </g>
+
+  <text x="64" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-weight="800" font-size="14.5" fill="#ffffff" letter-spacing="0.5">TIKTOK</text>
+  <text x="64" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-weight="700" font-size="11.5" fill="#35ed7e">@homexihanzu ↗</text>
+</svg>

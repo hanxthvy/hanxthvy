@@ -1,13 +1,13 @@
 {
- "key": "58349095",
+ "key": "e0c65ee5",
  "stars": 1,
- "contributions": 208,
- "repos": 5,
+ "contributions": 244,
+ "repos": 6,
  "followers": 2,
  "languages": [
   [
    "Rust",
-   688818
+   708097
   ],
   [
    "TypeScript",
@@ -15,19 +15,19 @@
   ],
   [
    "JavaScript",
-   134877
+   174995
   ],
   [
    "Python",
-   60070
+   75302
+  ],
+  [
+   "CSS",
+   22826
   ],
   [
    "Jupyter Notebook",
    9921
-  ],
-  [
-   "CSS",
-   9649
   ],
   [
    "C++",
@@ -111,7 +111,7 @@
   ],
   [
    {
-    "c": 6,
+    "c": 42,
     "day": 1,
     "today": true
    },
@@ -164,6 +164,15 @@
    "fork": false,
    "stars": 1,
    "language": "TypeScript",
+   "topics": []
+  },
+  {
+   "name": "pcbforge",
+   "url": "https://github.com/hanxthvy/pcbforge",
+   "text": "PCB design tool in the browser, with an AI assistant, that exports fab-ready Gerber. Written in HydraScript.",
+   "fork": false,
+   "stars": 0,
+   "language": "JavaScript",
    "topics": []
   },
   {

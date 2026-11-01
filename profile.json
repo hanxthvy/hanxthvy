@@ -8,20 +8,24 @@
   "iconFill": true,
   "order": [
     "hero",
+    "wave",
     "socials",
-    "about",
     "stack",
     "projects",
-    "stats",
+    "buttons",
     "streak",
-    "wave",
-    "buttons"
+    "stats",
+    "about"
   ],
-  "hidden": [],
+  "hidden": [
+    "about",
+    "streak",
+    "stats"
+  ],
   "hero": {
     "greeting": "Hi, I'm",
     "name": "",
-    "subtitle": "I build interfaces and small useful tools.",
+    "subtitle": "fullstack developer amatiran",
     "typing": true,
     "avatarShape": "cookie12",
     "chips": [
@@ -37,20 +41,7 @@
   },
   "about": {
     "title": "About me",
-    "items": [
-      {
-        "icon": "person",
-        "label": "Developer and designer"
-      },
-      {
-        "icon": "code",
-        "label": "Mostly frontend"
-      },
-      {
-        "icon": "palette",
-        "label": "Into Material Design"
-      }
-    ]
+    "items": []
   },
   "stack": {
     "title": "Tech stack",
@@ -63,12 +54,24 @@
             "label": "TypeScript"
           },
           {
+            "icon": "brand:javascript",
+            "label": "JavaScript"
+          },
+          {
             "icon": "brand:react",
             "label": "React"
           },
           {
             "icon": "brand:python",
             "label": "Python"
+          },
+          {
+            "icon": "brand:rust",
+            "label": "Rust"
+          },
+          {
+            "icon": "brand:cplusplus",
+            "label": "C++"
           }
         ]
       },
@@ -86,6 +89,18 @@
           {
             "icon": "brand:githubactions",
             "label": "GitHub Actions"
+          },
+          {
+            "icon": "brand:voidlinux",
+            "label": "Void Linux"
+          },
+          {
+            "icon": "brand:proxmox",
+            "label": "Proxmox VM"
+          },
+          {
+            "icon": "brand:ubuntu",
+            "label": "Ubuntu Linux"
           }
         ]
       }
@@ -118,16 +133,20 @@
   "socials": {
     "items": [
       {
-        "icon": "brand:telegram",
-        "url": "https://t.me/"
-      },
-      {
         "icon": "brand:discord",
-        "url": "https://discord.com/"
+        "url": "https://discord.gg/pPNcxVgwp"
       },
       {
-        "icon": "brand:x",
-        "url": "https://x.com/"
+        "icon": "brand:telegram",
+        "url": "t.me/xihanzu"
+      },
+      {
+        "icon": "brand:npm",
+        "url": "https://www.npmjs.com/~hanxthvy"
+      },
+      {
+        "icon": "brand:whatsapp",
+        "url": "Ikuti saluran hanxthvy di WhatsApp: https://whatsapp.com/channel/0029VbDeSgMBqbr1j1CFse2G"
       }
     ],
     "variant": "chip",
@@ -138,16 +157,17 @@
     "items": [
       {
         "icon": "language",
-        "label": "My website",
-        "url": "https://example.com",
+        "label": "My Portofolio",
+        "url": "https://hanxthvy.my.id",
         "style": "filled"
       },
       {
-        "icon": "book_2",
-        "label": "All repositories",
-        "url": "",
-        "style": "tonal"
+        "icon": "sports_esports",
+        "label": "game hosting",
+        "url": "https://client.vy-host.my.id",
+        "style": "filled"
       }
-    ]
+    ],
+    "card": true
   }
 }

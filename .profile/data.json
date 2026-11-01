@@ -1,0 +1,206 @@
+{
+ "key": "6553e655",
+ "stars": 1,
+ "contributions": 207,
+ "repos": 5,
+ "followers": 2,
+ "languages": [
+  [
+   "Rust",
+   688818
+  ],
+  [
+   "TypeScript",
+   176588
+  ],
+  [
+   "JavaScript",
+   134877
+  ],
+  [
+   "Python",
+   60070
+  ],
+  [
+   "Jupyter Notebook",
+   9921
+  ],
+  [
+   "CSS",
+   9649
+  ],
+  [
+   "C++",
+   6344
+  ]
+ ],
+ "days": [
+  [
+   {
+    "c": 0,
+    "day": 18,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 19,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 20,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 21,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 22,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 23,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 24,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 25,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 26,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 27,
+    "today": false
+   },
+   {
+    "c": 12,
+    "day": 28,
+    "today": false
+   },
+   {
+    "c": 24,
+    "day": 29,
+    "today": false
+   },
+   {
+    "c": 5,
+    "day": 30,
+    "today": false
+   },
+   {
+    "c": 35,
+    "day": 31,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 5,
+    "day": 1,
+    "today": true
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ ],
+ "streak": {
+  "current": 5,
+  "longest": 5
+ },
+ "pins": [
+  {
+   "name": "hydrascript",
+   "url": "https://github.com/hanxthvy/hydrascript",
+   "text": "Pythonic Syntax for React & Modern JavaScript — Standalone native Rust compiler with zero runtime overhead",
+   "fork": false,
+   "stars": 0,
+   "language": "Rust",
+   "topics": []
+  },
+  {
+   "name": "hydrascript-llm",
+   "url": "https://github.com/hanxthvy/hydrascript-llm",
+   "text": "Specialized Code LLM fine-tuned for HydraScript — a Pythonic meta-framework compiling to React (.hyx) and Node.js (.hys)",
+   "fork": false,
+   "stars": 0,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "portfolio",
+   "url": "https://github.com/hanxthvy/portfolio",
+   "text": "",
+   "fork": false,
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": []
+  }
+ ],
+ "all": [
+  {
+   "name": "portfolio",
+   "url": "https://github.com/hanxthvy/portfolio",
+   "text": "",
+   "fork": false,
+   "stars": 1,
+   "language": "TypeScript",
+   "topics": []
+  },
+  {
+   "name": "hanxthvy",
+   "url": "https://github.com/hanxthvy/hanxthvy",
+   "text": "Special repository for GitHub profile README",
+   "fork": false,
+   "stars": 0,
+   "language": null,
+   "topics": []
+  },
+  {
+   "name": "hydrascript-llm",
+   "url": "https://github.com/hanxthvy/hydrascript-llm",
+   "text": "Specialized Code LLM fine-tuned for HydraScript — a Pythonic meta-framework compiling to React (.hyx) and Node.js (.hys)",
+   "fork": false,
+   "stars": 0,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "hydrascript",
+   "url": "https://github.com/hanxthvy/hydrascript",
+   "text": "Pythonic Syntax for React & Modern JavaScript — Standalone native Rust compiler with zero runtime overhead",
+   "fork": false,
+   "stars": 0,
+   "language": "Rust",
+   "topics": []
+  },
+  {
+   "name": "Penyiram-Tanaman-Otomatis",
+   "url": "https://github.com/hanxthvy/Penyiram-Tanaman-Otomatis",
+   "text": "menyiram tanaman menggunakan arduino dan sensor kelembaban tanah",
+   "fork": false,
+   "stars": 0,
+   "language": "C++",
+   "topics": []
+  }
+ ]
+}

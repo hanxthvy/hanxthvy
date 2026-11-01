@@ -8,9 +8,9 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack"></picture>
 
-<a href="https://github.com/hanxthvy/portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-portfolio-dark.svg"><img src="assets/project-portfolio-light.svg" width="49%" alt="portfolio"></picture></a>&nbsp;<a href="https://github.com/hanxthvy/hydrascript"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-hydrascript-dark.svg"><img src="assets/project-hydrascript-light.svg" width="49%" alt="hydrascript"></picture></a>
+<a href="https://github.com/hanxthvy/hydrascript"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-hydrascript-dark.svg"><img src="assets/project-hydrascript-light.svg" width="49%" alt="hydrascript"></picture></a>&nbsp;<a href="https://github.com/hanxthvy/hydrascript-llm"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-hydrascript-llm-dark.svg"><img src="assets/project-hydrascript-llm-light.svg" width="49%" alt="hydrascript-llm"></picture></a>
 
-<a href="https://github.com/hanxthvy/hydrascript-llm"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-hydrascript-llm-dark.svg"><img src="assets/project-hydrascript-llm-light.svg" width="49%" alt="hydrascript-llm"></picture></a>&nbsp;<a href="https://github.com/hanxthvy/hanxthvy"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-hanxthvy-dark.svg"><img src="assets/project-hanxthvy-light.svg" width="49%" alt="hanxthvy"></picture></a>
+<a href="https://github.com/hanxthvy/portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-portfolio-dark.svg"><img src="assets/project-portfolio-light.svg" width="49%" alt="portfolio"></picture></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="GitHub activity"></picture>
 

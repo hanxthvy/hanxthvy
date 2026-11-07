@@ -1,7 +1,7 @@
 {
- "key": "6e47631",
+ "key": "64af91a2",
  "stars": 1,
- "contributions": 320,
+ "contributions": 327,
  "repos": 6,
  "followers": 4,
  "languages": [
@@ -23,15 +23,15 @@
   ],
   [
    "CSS",
-   25351
+   25280
+  ],
+  [
+   "HTML",
+   10685
   ],
   [
    "Jupyter Notebook",
    9921
-  ],
-  [
-   "HTML",
-   6452
   ]
  ],
  "days": [
@@ -141,7 +141,7 @@
     "today": false
    },
    {
-    "c": 6,
+    "c": 13,
     "day": 7,
     "today": true
    }

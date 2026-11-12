@@ -1,25 +1,25 @@
 {
- "key": "42cb77a3",
+ "key": "21ab1032",
  "stars": 1,
- "contributions": 325,
- "repos": 5,
+ "contributions": 333,
+ "repos": 6,
  "followers": 4,
  "languages": [
   [
    "Rust",
-   874733
+   1052921
   ],
   [
    "JavaScript",
-   820538
+   923157
   ],
   [
    "TypeScript",
-   165812
+   166631
   ],
   [
    "Python",
-   65028
+   67016
   ],
   [
    "CSS",
@@ -131,7 +131,7 @@
     "today": false
    },
    {
-    "c": 0,
+    "c": 8,
     "day": 12,
     "today": true
    },
@@ -140,8 +140,8 @@
   ]
  ],
  "streak": {
-  "current": 15,
-  "longest": 15
+  "current": 16,
+  "longest": 16
  },
  "pins": [
   {
@@ -150,7 +150,7 @@
    "text": "Pythonic Syntax for React & Modern JavaScript — Standalone native Rust compiler with zero runtime overhead",
    "fork": false,
    "stars": 0,
-   "language": "Rust",
+   "language": "JavaScript",
    "topics": []
   },
   {
@@ -183,6 +183,15 @@
    "topics": []
   },
   {
+   "name": "swara",
+   "url": "https://github.com/hanxthvy/swara",
+   "text": "Pemutar musik native YouTube Music dalam Rust — tanpa browser",
+   "fork": false,
+   "stars": 0,
+   "language": "Rust",
+   "topics": []
+  },
+  {
    "name": "hanxthvy",
    "url": "https://github.com/hanxthvy/hanxthvy",
    "text": "Special repository for GitHub profile README",
@@ -206,7 +215,7 @@
    "text": "Pythonic Syntax for React & Modern JavaScript — Standalone native Rust compiler with zero runtime overhead",
    "fork": false,
    "stars": 0,
-   "language": "Rust",
+   "language": "JavaScript",
    "topics": []
   },
   {

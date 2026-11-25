@@ -1,13 +1,13 @@
 {
- "key": "544a908e",
+ "key": "33fb3ce2",
  "stars": 1,
- "contributions": 537,
+ "contributions": 542,
  "repos": 7,
- "followers": 4,
+ "followers": 3,
  "languages": [
   [
    "Rust",
-   1242381
+   1249878
   ],
   [
    "JavaScript",
@@ -19,7 +19,7 @@
   ],
   [
    "Python",
-   67016
+   72016
   ],
   [
    "Java",
@@ -123,17 +123,21 @@
    {
     "c": 1,
     "day": 24,
+    "today": false
+   },
+   {
+    "c": 5,
+    "day": 25,
     "today": true
    },
-   null,
    null,
    null,
    null
   ]
  ],
  "streak": {
-  "current": 28,
-  "longest": 28
+  "current": 29,
+  "longest": 29
  },
  "pins": [
   {
